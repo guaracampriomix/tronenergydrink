@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUER ENCONTRAR O TRON?</title>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  </head>
+  
+</head>
+<body>
+  <div class="container">
+    <img src="img/MLrctQXT_400x400.jpg" alt="Logo" class="logo">
+    <h1>Encontre as lojas mais próximas de você!</h1>
+    <form id="locationForm">
+      <label for="region">Selecione seu bairro:</label>
+      <select id="region" required>
+        <option value="" disabled selected>Escolha seu bairro</option>
+        <!-- ZONA OESTE -->
+        <option value="-23.00124,-43.36608">Barra da Tijuca</option>
+        <option value="-23.01673,-43.46518">Recreio dos Bandeirantes</option>
+        <option value="-22.96884,-43.38458">Jacarepaguá</option>
+        <option value="-22.98653,-43.60999">Guaratiba</option>
+        <option value="-22.90233,-43.56009">Campo Grande</option>
+        <option value="-22.91714,-43.63664">Paciência</option>
+        <option value="-22.92030,-43.67939">Santa Cruz</option>
+
+        <!-- ZONA NORTE -->
+        <option value="-22.92073,-43.23483">Tijuca</option>
+        <option value="-22.90149,-43.27869">Méier</option>
+        <option value="-22.87263,-43.34304">Madureira</option>
+        <option value="-22.89000,-43.27402">Cachambi</option>
+        <option value="-22.83857,-43.27545">Penha</option>
+        <option value="-22.91656,-43.25660">Vila Isabel</option>
+
+        <!-- BAIXADA -->
+        <option value="-22.72752,-43.47886">Nova Iguaçu</option>
+        <option value="-22.78762,-43.31326">Duque de Caxias</option>
+        <option value="-22.79188,-43.36869">São João de Meriti</option>
+        <option value="-22.80979,-43.41929">Nilópolis</option>
+        <option value="-22.76095,-43.40432">Belford Roxo</option>
+        <option value="-22.78298,-43.42953">Mesquita</option>
+      </select>
+      <button type="submit">Buscar Lojas</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Tron Energy Drink. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
